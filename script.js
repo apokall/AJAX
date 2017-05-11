@@ -58,9 +58,9 @@ if (znak == "plus") {
   var degree = encodeURIComponent(ge('degree').value);
 }
 
-	var txt11 = encodeURIComponent(ge('numberOne').value);
-	var txt22 = encodeURIComponent(ge('numberTwo').value);
+	var numberOne = encodeURIComponent(ge('numberOne').value);
+	var numberTwo = encodeURIComponent(ge('numberTwo').value);
 
-    query = 'numberOne='+txt11+'&numberTwo='+txt22+'&minus='+minus+'&plus='+plus+'&multiply='+multiply+'&degree='+degree;
+    query = 'numberOne='+numberOne+'&numberTwo='+numberTwo+'&minus='+minus+'&plus='+plus+'&multiply='+multiply+'&degree='+degree;
     Request(query);
 }
